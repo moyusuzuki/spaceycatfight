@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+body {
+    background-color: #00D03C;
+}
+.flexslider {
+    margin: 0 auto;
+    background: #fff;
+    border: 0px;
+    width: 60%;
+}
+

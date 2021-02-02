@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>Spacey Cat Fight official website</title>
+<link rel="icon" href="favicon/favicon.ico"> 
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/sp.css" media="screen and (max-width:480px)">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<!--<script>var __adobewebfontsappname__="dreamweaver"</script>-->
+<script src="http://use.edgefonts.net/wallpoet:n4:default;londrina-shadow:n4:default;fusaka-std:n4:default;vt323:n4:default.js" type="text/javascript"></script>
+<script src="js/jquery-3.4.1.min.js"></script> 
+</head>
+
+<body id="album.html">
+<!--スマホページ用HTML--> 
+<header class="sp_header">
+<a href="spacycatfight.html">
+<div class="sp_logo">
+<img src="image/logo.png" alt="">
+</div>
+</a>
+        <div class="burger-btn"><!-- ③ハンバーガーボタン -->
+        <span class="bars">
+          <span class="bar bar_top"></span>
+          <span class="bar bar_mid"></span>
+          <span class="bar bar_bottom"></span>
+        </span>
+      </div>
+
+      <div class="nav-wrapper"><!-- ②ナビゲーションメニュー -->
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="news.html">NEWS</a></li>
+            <li class="nav-item"><a href="profile.html">PROFIRE</a></li>
+            <li class="nav-item"><a href="live.html">LIVE</a></li>
+            <li class="nav-item"><a href="discography.html">DISCOGRAPHY</a></li>
+            <li class="nav-item"><a href="goods.html">GOODS</a></li>
+            <li class="nav-item"><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+</header> 
+
+
+<!--パソコンページ用HTML-->
+<div id="wrapper">
+<div id="navi">
+        <nav id="nav_left">
+        <ul>
+            <li id="nav_news"><a href="news.html">NEWS</a></li>
+            <li id="nav_profile"><a href="profile.html">PROFILE</a></li>
+            <li id="nav_live"><a href="live.html">LIVE</a></li>
+        </ul>
+    </nav>
+     <h1><a href="index.html"><img src="image/logo.png" alt="logo"></a></h1>
+        <nav id="nav_right">
+        <ul>
+            <li id="nav_discography"><a href="discography.html">DISCOGRAPHY</a></li>
+            <li id="nav_goods"><a href="goods.html">GOODS</a></li>
+            <li id="nav_contact"><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</div>
+    <div id="DISC_contents">
+        <h1>DISCOGRAPHY</h1>
+    <div id="disc_ALBUM">
+    <div id="discography">
+    <section id="disc_list">
+        <h2>LIST</h2>
+        <ul>
+            <li id="all"><a href="discography.html">ALL</a></li>
+            <li id="ALBUM"><a href="album.html">ALBUM</a></li>
+            <li id="SINGLE"><a href="single.html">SINGLE</a></li>
+        </ul>
+    </section><!--disc_list-->
+    <section id="disc">
+        <table>
+        <tbody>
+            <tr>
+                        <td><img src="image/Album_1.jpg" alt=""></td>
+                        <td><ul>
+                                <li>Hello Human</li>
+                                <li>スクープ！宇宙猫襲来！</li>
+                                <li>宇宙遊泳</li>
+                                <li>Monolis</li>
+                                <li>背後の猫ちゃん -Hello Human ver-</li>
+                                <li>ホントにあった話</li>
+                                <li>キンクマハムスター</li>
+                                <li>S/O/S</li>
+                                <li>ひとりぼっち宇宙</li>
+                                <li>Good Luck Human</li>
+                            </ul>
+                </td>
+                <td><p><b>2020/10/03</b></p>
+                            <p>AL-0001</p>
+                            <p>￥2,300 (+tax)</p>
+                            <a href="#">購入</a>
+                    </td>
+                </tr>
+        </tbody>
+</table>
+
+        
+        
+
+    </section><!--disc-->
+   </div><!--discography-->
+ </div><!--DISC_contents-->
+        <div id="discography_sp">
+                        <label for="CD">SORT BY</label>
+                        <select id="disc_sp_list" name="album">
+                                <option value="discography.html">ALL</option>
+                                <option value="album.html">ALBUM</option>
+                                <option value="single.html">SINGLE</option>
+                        </select>
+        </div>
+    <div id="disc_sp">
+    <a href="hellohuman.html"><figure><img src="image/Album_1.jpg" alt=""></figure>
+    <figcaption>Spacey Cat Fight 1stアルバム<br>Hello Human</figcaption>
+     </a>
+    </div>
+<!--
+    <nav id="nav_sp"> 
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="news.html">NEWS</a></li>
+    <li><a href="profile.html">PROFIRE</a></li>
+    <li><a href="live.html">LIVE</a></li>
+    <li><a href="discography.html">DISCOGRAPHY</a></li>
+    <li><a href="goods.html">GOODS</a></li>
+    <li><a href="contact.html">CONTENTS</a></li>
+</ul>
+    </nav>
+-->
+
+    
+    <footer>
+        <p>&copy;copyright Spacy Cat Fight</p>
+    </footer>
+
+</div><!--wrapper-->
+</div>
+</body>
+<script src="js/mystyle.js"></script>
+<script>
+    $('.burger-btn').on('click',function(){
+    $('.burger-btn').toggleClass('close');
+    $('.nav-wrapper').fadeToggle(500);
+    $('body').toggleClass('noscroll');
+});
+    </script>
+</html>
